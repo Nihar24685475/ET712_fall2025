@@ -15,10 +15,10 @@ console.log(`update array with three new element= ${fruits}`)
 fruits.push("PETER",100)
 console.log(`update array with teo new element to the right = ${fruits}`)
 // find the index of the element 
-let index_ blueberries = fruits. indexof("blueberries")
+let index_blueberries = fruits.indexOf("blueberries")
 console.log(`what is the index of 'blueberries'? ${index_blueberries}`)
 // if the return index = -1, then the element doesn't exist in the array
-let index_PETER = fruits.indexof("PETER")
+let index_PETER = fruits.indexOf("PETER")
 console.log(`ehat is the index of 'PETER' ? ${index_PETER}`)
 
 console.log("\n----- Exapmple 2 : if statement--------")
@@ -44,7 +44,7 @@ console.log("END 2")
 
 // check if n1 is exactly equal to n2
 if (n1==n2){
-    console.log(`n1 is exatly equal to n2 --> ${n1==n2}`)\
+    console.log(`n1 is exatly equal to n2 --> ${n1==n2}`)
 }
 console.log("END 3")
 console.log("\n----- Exapmple 4 :check if a number is even or odd  --------")
@@ -70,7 +70,7 @@ else{
 console.log("\n----- Exapmple 6: multiway conditional statement  --------")
 let num1 = 9 
 let num2 = "9"
-if(num === num2){
+if(num1 === num2){
     console.log(`num1 is  EXACTLY EQUAL to num2`)
 }
 else if (num1>num2){
