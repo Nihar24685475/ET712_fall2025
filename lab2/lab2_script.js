@@ -22,7 +22,7 @@ let index_PETER = fruits.indexOf("PETER")
 console.log(`ehat is the index of 'PETER' ? ${index_PETER}`)
 
 console.log("\n----- Exapmple 2 : if statement--------")
-//if the statement is used to chech if the condition statement is TRUE, then will run the lines  in between the curly braces
+//if the statement is used to chech  if the condition statement is TRUE, then will run the lines  in between the curly braces
 let day=true
 let night=false
 // check if it is day time
