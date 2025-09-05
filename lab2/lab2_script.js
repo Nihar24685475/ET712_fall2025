@@ -99,5 +99,41 @@ switch(gender){
 }
 
 console.log("\n ------ exercise 1 -------")
+user_input = parseInt(prompt("enter number"))
+if(user_input>0){
+    console.log(`${user_input} the nubmber is positive`)
+} 
+else if(user_input < 0){
+    console.log(`${user_input} the number is nagetive`)
+}
+else if(user_input == 0){
+    console.log(`${user_input} the number is Zero`)
+}
+else{
+    console.log(`ERROR!`)
+}
 
 console.log("\n ------ exercise 2 -------")
+
+let color = prompt(`selact color"red", "green", "orange", "olive", "magenta"`)
+switch(color){
+    case "red": case "RED": case "R": case "r":
+        console.log("you selected Red color")
+        break
+    case "green": case "GREEN": case "G": case "g":
+        console.log("you selected Green color")
+        break
+    case "orange": case "ORANGE": case "O": case "o":
+        console.log("you selected Orange color")
+        break
+    case "olive": case "OLIVE": case "O": case "o":
+        console.log("you selected Olive color")
+        break
+    case "magenta": case "MAGENTA": case "M": case "m":
+        console.log("you selected Magenta color")
+        break
+    default:
+        console.log(`Color is not in the list! `)
+        break
+
+}
