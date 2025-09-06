@@ -88,7 +88,7 @@ let balance = 1000
 while(true){
    
     user_transaction = parseInt(prompt("how can I help you today?\npress 1 for account\npress 2 for deposite\n press 3 for withdraw\npress any other number to exit "))
-    if user_
+    if (user_transaction)
     switch(user_transaction){
         case 1:
             console.log(`your balance is ${balance}`)
@@ -105,10 +105,42 @@ while(true){
             console.log(`thank you for visiting!`)
             break
         }
-        
-
+        break
          
 }
 
+console.log(`----- exercice A-------`)
 
+let num = [-3, 10, 0, 8, -9, 5, -2, 8, 6, -1];
+let Positive = 0;
+let Negative = 0;
+for (let x=0; x < num.length; x++){
+    if( num[x] > 0){
+        Positive += num[x];
+    } else if (num[x] < 0){
+        Negative += num[x];
+    }
+}
 
+console.log("the sum of positive number is", Positive);
+console.log("the sum of negative num is", Negative);
+ 
+console.log(`----- exercice B-------`)
+let PIN = 1234
+let attempt_counter = 3
+while(attempt_counter > 0){
+    let user_pin = parseInt(prompt("Enter the PIN"))
+    if(user_pin == PIN){
+        console.log(`welcome to your account`)
+        break;                   
+    }
+    
+    else { 
+        attempt_counter -- 
+        console.log(`the pin is wrong try again`)
+    }
+    if (attempt_counter == 0){
+        console.log("ACCOUNT IS LOCKED")
+        break
+    }
+}
