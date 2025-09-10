@@ -56,17 +56,27 @@ function checkTemperature(temperature){
     }
 }
 console.log(`-------- exercide 1 ------`)
+
 function checkName(){
     while(true){
-    let name = prompt(' enter a name')
-    if (name == ""){
-        prompt (' you forget to Enter name. Enter a name again')
-    }
-    else if (name == null){
-        prompt ('you forget to Enter name. Enter a name again')
-    }
-    else if (name == isNaN){
-        prompt(`${name} invalid !`)
+        let name= prompt(`Enter your name: `)
+        if (name == ""){
+            prompt (' you forget to Enter name. Enter a name again')
+        }
+        else if (name == null){
+            prompt (' you forget to Enter name. Enter a name again')
+        }
+        else if (!isNaN(name)){
+            prompt(`${name} is invalid! Enter a name again: `)
+        }
+        else {
+            console.log(`Welcome ${name.toUpperCase()} to the class! `)
+            break
+        }
     }
 }
-}
+
+
+
+
+
