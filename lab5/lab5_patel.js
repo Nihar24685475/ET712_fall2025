@@ -46,8 +46,8 @@ const car = {
 // create an object'myMath' that wil calculate the perimeter or the ara of rectangle
 const myMath = {
     //method
-    perimeter : function(w=0,1=0) {return (2*w)+(2*1)},
-    area : function (w=0,1=0){return w*1}
+    perimeter : function(w=0,l=0) {return (2*w)+(2*1)},
+    area : function (w=0,l=0){return w*1}
 }
 
 // example 6
@@ -74,11 +74,10 @@ const hen = {
     }
 
 }
-
-//EXAMPLE 8 \\
-function yell(message=""){
+//EXAMPLE 8
+function yell(message){
     try{
-        console.log(message.toUppercase().repet(3))
+        console.log(message.toUpperCase().repeat(3))
     }
     catch(error){
         console.log(error)
@@ -91,5 +90,25 @@ function yell(message=""){
 }
     
 // EXERCISE 1
+const mycalculator = {
+    message : "HI",
+    side : 2,
+    area_square : function(){
+        return Math.pow(this.side,2)
+    },
+    volume_cube : function(){
+        return Math.pow(this.side,3)
+    }
+}
+console.log(mycalculator.message)           
+console.log(mycalculator.area_square())
+console.log(mycalculator.volume_cube())
 
-
+//EXERCISE 2
+function readProperty(obj,prop){
+    try {
+        return obj[prop];
+    } catch (error) {
+        return "Error accessing property";
+    }
+}    
