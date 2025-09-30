@@ -1,0 +1,54 @@
+*{box-sizing : border-box;}
+.shapecontainer{
+    width: 80%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 3rem;
+
+}
+.shapeDivision{
+    width: 200px;
+    margin: auto;
+    border: solid 1px, gray;
+    padding: 2rem;
+    text-align: center ;
+}
+.btn_square, .btn_circle, .btn_rectangle{
+    background-color: darkblue;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    width: 30%;
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+.btn_square:hover, .btn_circle:hover, .btn_rectangle:hover{
+    background-color: red;
+}
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    margin: auto;
+
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.rectangle{
+    width: 500px;
+    height: 300px;
+    background-color: maroon;
+    margin: auto;
+}
+.suqar, .circle, .rectangle{
+    text-align: center;
+    font-size: 3rem;
+    padding:30%;
+}
