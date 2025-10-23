@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihar patel</title>
+    <link rel="stylesheet" href="lab10.css">
+</head>
+<body>
+    <h1>NIhar patel</h1>
+    <form class="myform" id="form1">
+        <legend class="legend">user info</legend>
+        <section class="form_control">
+            
+            <label class="form_label" for="username">Enter username: </label>
+            <input class="form_input" id="username" type="text"  maxlength="20" placeholder="type username..">
+            <p class="username_error_msg"></p>
+        </section>
+        <section class="form_control">
+            <label for="password" class="form_label">Enter the password</label>
+            <input type="password" id="password" class="form_input" placeholder="type password..."> 
+        </section>
+        <input type="submit" value="SUBMIT" class="btnsubmit">
+
+        <!-- display message-->
+        <div class="greeting">
+            <p> welcome to form event <span class="display_username"></span></p>
+        </div>
+
+    </form>
+
+    <form class="myform">
+        <h2>Unscramble the world!</h2>
+        <p>Shuffled word: <strong id="Shuffledword"></strong></p>
+
+        <section class="form_control">
+            <input type="text" id="guessInput" class="form_input" placeholder="type the corect word!..">
+            <p id="wordfeedback"></p>
+            
+
+        </section>
+    </form>
+
+    <form class="myform" id="regForm">
+        <section class="form_control">
+            <h2>Registration form</h2>
+            <label for="username1">Username: </label>
+            <input type="text" id="username1" placeholder="type username..">
+            <p class="feedback"></p>
+        </section>
+
+        <input type="submit" value="SUBMIT" class="btnsubmit">
+    </form>
+    
+</form>
+    
+    <script src="lab10_script.js"></script>
+
+</body>
+
+</html>
