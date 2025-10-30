@@ -1,0 +1,205 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+
+.Learning {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 1rem;
+}
+
+.quiz-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 97%;
+    height: 50%;
+    margin: 2rem auto;
+}
+
+.numbers {
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.line { font-family: "Comic Sans MS"; }
+
+.message {
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+}
+
+.reset-btn {
+    display: block;
+    margin: 1rem auto;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.reset-btn:hover { background-color: #555; }
+
+.hide { display: none; }
+
+/* different colors */
+.q1 {
+    background-color: #f2c94c; 
+}
+.q2 {
+    background-color: #2d9cdb;
+}
+.q3 {
+    background-color: #f2994a; 
+}
+.q4 { background-color: #27ae60; }
+.q5 { background-color: #bb6bd9; }
+.q6 { background-color: #eb5757; }
+.q7 { background-color: #6fcf97; }
+.q8 { background-color: #9b51e0; }
+.q9 { background-color: #219653; }
+.q10 { background-color: #56ccf2; }
+
+
+
+
+/* 🎨 learning Color */
+/* 🎨 Color Game Section - Horizontal Layout */
+.activity_title{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 1rem;
+}
+.activities{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.color_game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.colors_side, .names_side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.color_box {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px gray;
+}
+
+
+.color_name {
+  width: 90px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #333;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.colorMessage{
+    margin-top: 70px;
+    background-color: lightgreen;
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+/* animals */
+
+.pic_animal{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 90px;
+    background-color: lightblue
+}
+.animal{
+    margin-top: 90px;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.animels_title{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 1rem;
+}
+.LEARN{
+    background-color: rgb(50,50,50,0.8);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    display: none;
+}
+.close_btn{
+    position: absolute;
+    top: 10px;
+    right:15px;
+    font-size: 20px;
+    color: darkblue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.close_btn:hover:{
+    color: crimson
+}
+
+.animal_info, .info{
+    width:50%px;
+    padding:2rem;
+    display: flex;
+}
+.learninganimals{
+    background-color: rgb(186, 25, 167);
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 20px;
+}
+.learninganimals h2{
+    text-align: center;
+    padding: 1em;
+    color:darkblue;
+    font-size: 50px;
+}
+.modal_info{
+    display: flex;
+}
+.info{
+    width:50%px;
+    padding:2rem;
+    display: flex;
+    font-family: "Comic Sans MS";
+    color: lightgreen;
+    text-align: center;
+    margin-top: 50px;
+}
