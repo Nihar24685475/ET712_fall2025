@@ -260,7 +260,7 @@ sheep.addEventListener("click", function() {
 });
 closeBtn4.addEventListener("click",function(){
     LEARN_SHEEP.style.display = "none"
-})
+});
 
 
 const rabbit = document.querySelector("#REBBIT");
@@ -323,5 +323,21 @@ closeBtn10.addEventListener("click",function(){
 })
 
 
+const btnright= document.querySelector(".btnright");    
+const btnleft= document.querySelector(".btnleft");
+const learn_Alphabet = document.querySelector(".learn_Alphabet")
+function scrollGallery(pixels){
+    const lettergallery = document.querySelector("section.learn_Alphabet").scrollBy({
+        left:pixels,
+        behavior: "smooth"
+    })
+}
+btnright.addEventListener("click",function(){
+    scrollGallery(-260)
+
+})
+btnleft.addEventListener("click",function(){
+    scrollGallery(260)
+})
 
 

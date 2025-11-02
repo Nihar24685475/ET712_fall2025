@@ -117,10 +117,18 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 .colorMessage{
     margin-top: 70px;
     background-color: lightgreen;
-    padding: 1px;
+    padding: .5px;
     text-align: center;
     font-size: 30px;
-
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.line_bottom{
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+    border-bottom: 6px solid lightgray;
 }
 
 
@@ -173,26 +181,27 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 }
 
 .animal_info, .info{
-    width:50%px;
+    font-size: 17px;
     padding:2rem;
     display: flex;
 }
 .learninganimals{
     background-color: rgb(186, 25, 167);
     width: 700px;
-    height: 700px;
+    height: 600px;
     margin: 100px auto;
     position: relative;
     border-radius: 20px;
 }
 .learninganimals h2{
     text-align: center;
-    padding: 1em;
     color:darkblue;
-    font-size: 50px;
+    font-size: 500%;
+    top: 1000px;
 }
 .modal_info{
     display: flex;
+
 }
 .info{
     width:50%px;
@@ -203,3 +212,67 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     text-align: center;
     margin-top: 50px;
 }
+.close_btn{
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+}
+
+
+/* letters */
+.letter_title{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 90px;
+}
+.learn_Alphabet{
+    display: flex;
+    gap: 105px;
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.Alphabet{
+    display: flex;
+    /* gap: 50px;  */
+    overflow-x:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: orange;
+    border-radius: 25px;
+    scroll-behavior: smooth;
+    margin-left: 850px;
+    margin-right: 990px;
+    box-shadow: 5px 5px 10px 5px gray;
+
+}
+.letter{
+    text-align: center;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+    color: #000;
+    font-family: "Comic Sans MS";
+
+}
+.btnright, .btnleft{
+    position: absolute;
+    font-size: 6rem;
+    color: rgb(71, 71, 230);
+    background-color: rgb(255,255,255,0);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.btnright{
+    margin-top: 90px;
+    right: 2%;
+}
+.btnleft{
+    margin-top: 90px;
+    left: 2%;
+}
+
+
