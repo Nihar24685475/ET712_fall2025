@@ -323,21 +323,21 @@ closeBtn10.addEventListener("click",function(){
 })
 
 
-const btnright= document.querySelector(".btnright");    
-const btnleft= document.querySelector(".btnleft");
+const btnup= document.querySelector(".btnup");    
+const btndown= document.querySelector(".btndown");
 const learn_Alphabet = document.querySelector(".learn_Alphabet")
 function scrollGallery(pixels){
     const lettergallery = document.querySelector("section.learn_Alphabet").scrollBy({
-        left:pixels,
+        top:pixels,
         behavior: "smooth"
     })
 }
-btnright.addEventListener("click",function(){
-    scrollGallery(-260)
+btnup.addEventListener("click",function(){
+    scrollGallery(-267)
 
 })
-btnleft.addEventListener("click",function(){
-    scrollGallery(260)
+btndown.addEventListener("click",function(){
+    scrollGallery(267)
 })
 
 

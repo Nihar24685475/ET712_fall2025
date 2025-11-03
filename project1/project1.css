@@ -226,26 +226,27 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 }
 .learn_Alphabet{
     display: flex;
-    gap: 105px;
-    /* margin-left: 350px;
-    margin-right: 350px; */
-    overflow-x: auto;
-    white-space: nowrap;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+    height: 100%;
 }
 .Alphabet{
     display: flex;
-    /* gap: 50px;  */
-    overflow-x:auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: orange;
     border-radius: 25px;
-    scroll-behavior: smooth;
-    margin-left: 850px;
-    margin-right: 990px;
+    padding: 30px;
     box-shadow: 5px 5px 10px 5px gray;
-
+    width: 400px;
+    height: 320px; /* Only one letter fits */
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
 }
 .letter{
     text-align: center;
@@ -256,7 +257,7 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     font-family: "Comic Sans MS";
 
 }
-.btnright, .btnleft{
+.btnup, .btndown{
     position: absolute;
     font-size: 6rem;
     color: rgb(71, 71, 230);
@@ -266,12 +267,14 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 
 
 }
-.btnright{
+.btnup{
     margin-top: 90px;
+    margin-right: 350px;
     right: 2%;
 }
-.btnleft{
+.btndown{
     margin-top: 90px;
+    margin-left: 350px;
     left: 2%;
 }
 
