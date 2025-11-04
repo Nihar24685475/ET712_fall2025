@@ -333,11 +333,11 @@ function scrollGallery(pixels){
     })
 }
 btnup.addEventListener("click",function(){
-    scrollGallery(-267)
+    scrollGallery(-265)
 
 })
 btndown.addEventListener("click",function(){
-    scrollGallery(267)
+    scrollGallery(265)
 })
 
 
