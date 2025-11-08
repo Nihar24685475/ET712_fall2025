@@ -1,0 +1,15 @@
+h1.title{
+  text-align: center;
+  background-color:cadetblue;
+  padding: 1em;
+}
+button.square{
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+}
+div.boardcontainer{
+ text-align: center;
+}
+
+
