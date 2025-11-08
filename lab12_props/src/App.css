@@ -1,0 +1,61 @@
+*{box-sizing: border-box;}
+img{width:100%; display: block ;}
+
+/* comment.js */
+.card{
+    padding: 1rem;
+}
+.author{
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.metabata ,.comment{
+    text-align: center;
+}
+.date{
+    font-style: italic;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+/* app.js */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* User_feedback */
+
+.feedbackcard{ 
+    width: 300px;
+    border: solid 1px gray;
+    border-radius: 5px; 
+    text-align: center; 
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.cardfooter{
+background-color:gray; 
+padding: 0.5rem 1rem;
+color: aliceblue;
+}
+
+.feedbackcontainer{
+    margin: 1rem
+}
+
+.feedbackcontainer:hover{
+    box-shadow: 0px 0px 10px 1px gray;
+    transform: scale (1.01);
+    overflow: hidden; 
+    border-radius: 10px;
+}
+
+.content{
+font-size:1.5rem;
+font-weight: bolder;
+padding: 1rem;
+}
