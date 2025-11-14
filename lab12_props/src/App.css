@@ -59,3 +59,60 @@ font-size:1.5rem;
 font-weight: bolder;
 padding: 1rem;
 }
+
+
+/* modalwindow */
+
+.modalwindow{
+    background-color: rgba(50,50,50,0.5);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    display: none;
+}
+.modalcontent{
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 100px auto;
+
+}
+.modalheader{
+    border-bottom: ridge 1px lightblue;
+    display: flex;
+
+}
+.modalheader p:nth-child(1){
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+
+}
+.closemodal{
+    margin-left: auto;
+    width: 20%;
+    color: lightgreen;
+
+}
+.commentarea{
+    width: 80%;
+    margin: 10%;
+    padding: 0.5rem 1rem;
+}
+.btnpost_feedback{
+    width: 80%;
+    background-color: lightgreen;
+    margin:10%;
+    padding: 1rem;
+    border:none;
+    border-radius: 5px;
+
+}
+.btnpost_feedback:hover{
+    background-color: crimson;
+
+}
+ .closemodal:hover{
+    color: crimson;
+ }

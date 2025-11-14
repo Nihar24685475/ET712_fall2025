@@ -14,15 +14,15 @@ function App() {
   <h1 style={{textAlign:"center"}}>lab_12, React props by NIHAR </h1>
     <section className='container'>
       {/* User 1 */}
-      <User_feedback username="Batman">
+      <User_feedback Username="Batman">
         <User image={avatar1} date = "04/23/2025" msg="I'M Batman"/>
       </User_feedback>
 
-      <User_feedback username="superman">
+      <User_feedback Username="superman">
         <User image={avatar2}  date = "09/26/2025" msg="I'M superman"/>
       </User_feedback>
 
-      <User_feedback username="lilly">
+      <User_feedback Username="lilly">
         <User image={avatar3} date = "01/20/2025" msg="4 year of graduation"/>
       </User_feedback>
 
