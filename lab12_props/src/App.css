@@ -116,3 +116,24 @@ padding: 1rem;
  .closemodal:hover{
     color: crimson;
  }
+
+.container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+ .postcomment{
+    width: 980px; 
+    background-color: rgba(240,240,240);
+    margin:3rem auto;
+ }
+
+.commentlist li{
+    list-style: none; 
+    background-color:white;
+    padding: 1rem;
+    border: solid 1px rgb(240,240,240);
+
+}
+
