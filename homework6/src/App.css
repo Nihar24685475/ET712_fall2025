@@ -1,0 +1,43 @@
+/* Main container */
+.container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Product card grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Product card styling */
+.card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Product image */
+.card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.stock{
+  color: green;
+}

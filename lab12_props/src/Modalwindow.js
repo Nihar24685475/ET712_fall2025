@@ -19,8 +19,6 @@ const Modalwindow = function () {
         commentlist.innerHTML += `<li><em> <b> ${modalusername} </b></em> -- - ${ commentarea.value } --- <span style="font-size:0.8rem; color: gray">  </span> </li>`
         commentarea.value = ""
         modalwindow.style.display = "none"
-
-
     }
 
 
