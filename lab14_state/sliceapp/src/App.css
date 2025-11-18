@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+img{width: 100%; display:block;}
+
+.App{
+  width: 1000px;
+  padding: 2rem;
+  margin:3rem auto;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.title{
+  text-align: center;
+}
+
+.slicewrapper{
+  width: 600px;
+  margin: 2rem auto;
+  padding:2rem;
+}
+.numberwrapper{
+  height: 200px;
+  display: flex;
+  justify-content:  space-around;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  color:white;
+}
+.numberwrapper>div{
+  border: solid gray 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin:3rem;
+}
+.msg{
+  text-align: center;
+  font-weight: bolder;
+  width: 600px;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+.btngroup{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.5rem;
+}
+.btngroup>button{
+  width: 30%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.btngroup>button:hover{
+  background-color: darkblue;
+  box-shadow: 0px 0px 5px 1px gray;
+  font-weight: bolder;
+}
+.active{
+  background-color: orangered;
+  box-shadow: 0px 0px 5px 1px gray;
+
+}
+/* open and close */
+.readmore{
+  background-color: lightblue;
+  padding: 1rem;
+}
+.readmorebtn{
+  border: none;
+  padding: 0.3rem 0.5rem;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+
+
+}
+
+
