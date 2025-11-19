@@ -31,8 +31,8 @@ function App() {
         
 
         <div className='btngroup'>
-          <button onClick={function (){if(couter<message.length)setCounter(couter+1)}}>Next</button>
-          <button onClick={function (){if(couter>1)setCounter(couter-1)}}>Previous</button>
+          <button onClick={function (){if(couter==message.length)setCounter(1); else if (couter<message.length)setCounter(couter+1)}}>Next</button>
+          <button onClick={function (){if(couter==1)setCounter(message.length);else if(couter>1)setCounter(couter-1)}}>Previous</button>
         </div>
       </section>
 
