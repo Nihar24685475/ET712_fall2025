@@ -1,61 +1,80 @@
-*{box-sizing: border-box; } 
-img{width: 100%; display: block;}
-.title{
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.title {
   text-align: center;
   color: blueviolet;
 }
+
 /* navbars. js*/
-.navbar{
-  background-color: aliceblue; 
-  width: 900px; 
-  margin: auto; 
-  display: flex; 
-  padding: 2rem; 
+.navbar {
+  background-color: aliceblue;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  padding: 2rem;
   font-size: 2rem;
 }
-.qcclink{width:20%; }
 
-.qcclink a{color: blueviolet; 
-  text-decoration: none; 
-  font-weight: bolder;}
+.qcclink {
+  width: 20%;
+}
 
-.btngroup{width: 80%; margin-right: auto;}
+.qcclink a {
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bolder;
+}
 
-.btngroup button{
-  background-color: aliceblue; 
-  width: 20%; 
-  font-size: 1.5rem; 
-  text-decoration: none; 
+.btngroup {
+  width: 80%;
+  margin-right: auto;
+}
+
+.btngroup button {
+  background-color: aliceblue;
+  width: 20%;
+  font-size: 1.5rem;
+  text-decoration: none;
   border: none;
-} 
-
-.qcclink a:hover, .btngroup button:hover{
-color: crimson;
 }
 
-.Headertitle{
-  text-align: center;}
+.qcclink a:hover,
+.btngroup button:hover {
+  color: crimson;
+}
 
-.maincontainer{
+.Headertitle {
+  text-align: center;
+}
+
+.maincontainer {
   display: flex;
-justify-content: center; 
-flex-wrap: nowrap;
-width: 900px;
-margin: 2rem auto;
-}
-.cardimg{
-  width:40%;
-  margin: 2%;
-border-radius: 10px;
-overflow: hidden;
-box-shadow: 1px 1px 5px gray;
-transition: ease-in-out 200ms;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 900px;
+  margin: 2rem auto;
 }
 
-.cardimg :hover{
+.cardimg {
+  width: 40%;
+  margin: 2%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px gray;
+  transition: ease-in-out 200ms;
+}
+
+.cardimg :hover {
   cursor: pointer;
-transform: scale(0.99);
-box-shadow: none;
-opacity: 0.7;
-border: gray solid 2px;
+  transform: scale(0.99);
+  box-shadow: none;
+  opacity: 0.7;
+  border: gray solid 2px;
 }
