@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+img{width: 100%; display: block;}
+
+.apptitle{
+  text-align: center;
+}
+.producttitle{
+  text-align: center;
+  color: darkgreen;
+
+}
+.cardcontainer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.card{
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  border: solid gray 1px;
+  box-shadow: rgb(180, 180, 180) 0 1px;
+  text-align: center;
+  width: 260px;
+  min-height: 360px;    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.1s ease;
+}
+.card:hover{
+  transform: translateY(-5px)
+}
+.card img{
+  height: 170px;          
+  object-fit: contain;
+}
+.productname{
+  text-align: center;
+  font-weight: bolder;
+}
+.productname span{
+  font-size: 1.5rem;
+  color:crimson;
+  margin-left: 0.2rem;
+
+}
+.productname s{
+  margin-left: 0.5rem;
+  color: darkgray;
+}
+.btn_addcard{
+  width: 100%;
+  border: none;
+  background-color: rgb(14, 68, 218);
+  color:white;
+  padding:0.5rem;
+  border-radius: 20px;
+}
+.btn_addcard :hover{
+  cursor: pointer;
+  background-color: crimson;
+  box-shadow: 0px 0px 2px 1px gray;
+
+}
+/* cart.js*/
+.carttitle{
+  color: darkgreen;
+  text-align: center;
+}
+.cartcontainer{
+  width: 90%;
+  max-width: 950px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.emptymsg{
+  font-size: 1.5;
+  font-weight: bolder;
+  color:gray;
+}
+.itemcart{
+  display:flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 2px solid whitesmoke;
+
+}
+.cartitemimg{
+  width: 70px;
+}
+.cartitemname{
+  padding-left:1rem;
+}
+.cartitemprice, .cartitemquantity, .cartitemtotal{
+  width: 20%;  
+  padding-left: 7rem;
+  
+}
+.btncartremove{
+  color: crimson;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  padding-left: 3.5rem;
+}
+.btncartremove :hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.totalcart{
+  border-top: solid gray 1px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding : 1rem 0rem;
+  text-align: right;
+}
