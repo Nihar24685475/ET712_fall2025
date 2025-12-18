@@ -292,27 +292,6 @@ a {
   font-size: 1rem;
 }
 
-.footer-socials {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-socials a {
-  font-size: 22px;
-  color: white;
-  transition: 0.3s ease;
-}
-
-.footer-socials a:hover {
-  color: #ff1a1a;
-}
-
-.footer-copy {
-  text-align: center;
-  margin-top: 25px;
-  font-size: 0.9rem;
-  color: #ccc;
-}
 
 /* Responsive footer */
 @media (max-width: 600px) {

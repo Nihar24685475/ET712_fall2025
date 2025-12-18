@@ -65,7 +65,14 @@ function App() {
       
 
       <footer className="footer">
-        © 2025 MotoMax. Ride Safe.
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>RiderZone</h3>
+            <p>📍 245 W 38th St, New York, NY 10018</p>
+            <p>☎️ +1 (212) 555-7832</p>
+            </div>
+            <p class="footer-copy">© 2025 RiderZone. All Rights Reserved.</p>
+        </div> 
       </footer>
     </BrowserRouter>
   );
