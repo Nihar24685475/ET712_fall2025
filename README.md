@@ -1,6 +1,6 @@
 #PROJECT 2
 
-# ET712_Project_MotoMax 🏍️
+# MotoMax 🏍️
 
 ## Project Overview
 
